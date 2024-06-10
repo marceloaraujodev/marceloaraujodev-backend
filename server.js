@@ -12,7 +12,7 @@ const app = express();
 app.use(cookieParser());
 app.use(morgan('dev'));
 app.use(cors({
-  origin:  ['http://localhost:5173', 'http://localhost:4000'],
+  origin:  ['http://localhost:5173', 'https://marceloaraujodev.onrender.com'],
   // origin:  'https://mybank-client.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Adjust this based on your needs
   credentials: true
